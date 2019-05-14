@@ -22,3 +22,8 @@ Button.propTypes = ({
     }
   }
 })
+
+Button.defaultProps = {
+  type: 'button',
+  value: 'Default Text'
+}
